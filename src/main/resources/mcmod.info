@@ -1,14 +1,14 @@
 [
 {
-  "modid": "cave",
-  "name": "Example Mod",
-  "description": "Example placeholder mod.",
+  "modid": "cavesplorer",
+  "name": "Cavesplorer",
+  "description": "Cavesplorer mod",
   "version": "${version}",
-  "mcversion": "${mcversion}",
+  "mcversion": "1.12+",
   "url": "",
   "updateUrl": "",
   "authorList": ["ExampleDude"],
-  "credits": "The Forge and FML guys, for making this example",
+  "credits": "LeviathanZC from ZeretteCompany",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []
