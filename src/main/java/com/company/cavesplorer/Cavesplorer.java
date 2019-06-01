@@ -18,10 +18,10 @@ public class Cavesplorer {
     public static final String MODID = "cavesplorer";
     public static final String NAME = "Cavesplorer";
     public static final String VERSION = "0.0.1";
-    public static final CreativeTabs CTAB = new CreativeTabs("Chemical Elements") {
+    public static final CreativeTabs CHEMICAL_ELEMENTS = new CreativeTabs("Chemical Elements") {
         @Override
         public ItemStack getTabIconItem() {
-            return new ItemStack(ItemsRegister.CHEMICAL_ELEMENT);
+            return new ItemStack(ItemsRegister.CHEMICAL_ELEMENT_PLATE);
         }
     };
 
