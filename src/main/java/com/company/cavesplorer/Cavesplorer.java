@@ -1,7 +1,10 @@
 package com.company.cavesplorer;
 
+import com.company.cavesplorer.items.ItemsRegister;
 import com.company.cavesplorer.proxy.CommonProxy;
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Blocks;
+import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.SidedProxy;
@@ -15,6 +18,12 @@ public class Cavesplorer {
     public static final String MODID = "cavesplorer";
     public static final String NAME = "Cavesplorer";
     public static final String VERSION = "0.0.1";
+    public static final CreativeTabs CTAB = new CreativeTabs("Chemical Elements") {
+        @Override
+        public ItemStack getTabIconItem() {
+            return new ItemStack(ItemsRegister.CHEMICAL_ELEMENT);
+        }
+    };
 
     @SidedProxy(clientSide = "com.company.cavesplorer.proxy.ClientProxy", serverSide = "com.company.cavesplorer.proxy.CommonProxy")
     public static CommonProxy proxy;
