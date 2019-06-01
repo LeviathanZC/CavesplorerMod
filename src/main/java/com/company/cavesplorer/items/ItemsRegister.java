@@ -14,7 +14,7 @@ public class ItemsRegister {
 
     public static Item CHEMICAL_ELEMENT_PLATE = new Chemical_Element("chemical_element");
     public static Item HYDROGEN_PLATE = new Hydrogen_Plate("hydrogen_plate", 1, "HYDROGEN", "I_A");
-    public static Item HELIUM_PLATE = new Helium_Plate("helium_plate", 2, "HELIUM", "VIII_A")
+    public static Item HELIUM_PLATE = new Helium_Plate("helium_plate", 2, "HELIUM", "VIII_A");
 
     public static void register() {
         setRegister(CHEMICAL_ELEMENT_PLATE);
