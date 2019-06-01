@@ -7,7 +7,6 @@ import net.minecraft.item.Item;
 public class Chemical_Element extends Item {
 
     private int number;
-    private String latin_name;
     private String group;
 
     public Chemical_Element(String name) {
@@ -26,13 +25,6 @@ public class Chemical_Element extends Item {
         return this.number;
     }
 
-    public void setLatin_name(String name) {
-        this.latin_name = name;
-    }
-
-    public String getLatin_name() {
-        return this.latin_name;
-    }
 
     public void setGroup(String number) {
         this.group = number;
